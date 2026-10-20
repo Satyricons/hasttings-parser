@@ -1,0 +1,14 @@
+{
+  "name": "hasttings-parser",
+  "version": "1.0.0",
+  "description": "Парсер XML-фида Hasttings в Excel",
+  "main": "parse-feed.js",
+  "scripts": {
+    "parse": "node parse-feed.js",
+    "download-images": "node download-images.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.2",
+    "xlsx-js-style": "^1.2.0"
+  }
+}
